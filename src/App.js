@@ -6,7 +6,7 @@ import Products from "./components/Products";
 import Checkout from "./components/Checkout";
 import Thanks from './components/Thanks';
 export const config = {
-  endpoint: `http://${ipConfig.workspaceIp}/api/v1`,
+  endpoint: `${ipConfig.workspaceIp}/api/v1`,
 };
 
 function App() {
